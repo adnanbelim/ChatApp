@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scroll-none-custom {
+  overflow-y: auto;
+  /* Allows scrolling when needed */
+}
+
+.scroll-none-custom::-webkit-scrollbar {
+  display: none !important;
+  /* Hides the scrollbar in WebKit browsers */
+}
+
+.screen-overflow{
+  overflow-y: hidden;
+}
